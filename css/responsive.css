@@ -1,0 +1,824 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* header responsive  */
+    .hero-wrapper h3 {
+        font-size: 35px;
+    }
+    .hero-wrapper h2 {
+        font-size: 35px;
+    }
+    .header-area {
+        padding: 0 10px;
+    }
+    .nav-logo img {
+        max-width: 160px;
+    }
+    /* how it work area  */
+    .howItWork-right h2 {
+        font-size: 110px;
+    }
+    /* contact us area  */
+    .contact-title h2 {
+        font-size: 130px;
+    }
+
+    /* our progress area  */
+
+    .progress-tab-card h2 {
+        font-size: 65px;
+    }
+    .progress-tab-card {
+        gap: 40px;
+    }
+    .progress-inner-content {
+        gap: 25px;
+    }
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* header responsive  */
+    .hero-wrapper h3 {
+        font-size: 30px;
+    }
+    .hero-wrapper h2 {
+        font-size: 30px;
+    }
+    .header-area {
+        padding: 0 10px;
+    }
+    .nav-logo img {
+        max-width: 160px;
+    }
+    .navbar-navs li {
+        display: none;
+    }
+    .navbar-navs li.brand-logo {
+        display: block;
+    }
+    .action-btn {
+        padding: 10px 20px;
+    }
+    .navbar-area {
+        margin-top: 25px;
+    }
+    .header-fixed .navbar-area {
+        padding: 10px 0 !important;
+    }
+    /* feature area  */
+    .feature-area {
+        padding: 35px 0;
+    }
+    .feature-wrapper {
+        padding: 10px 0px;
+        overflow: hidden;
+    }
+    /* service area  */
+    .single-service {
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .single-service {
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .single-service .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .service-details h4 {
+        font-size: 20px;
+    }
+    .service-left-card p {
+        font-size: 22px;
+    }
+    .service-left-card h4 {
+        font-size: 32px;
+    }
+    .service-section-top h2 {
+        font-size: 50px;
+    }
+    .service-wrapper {
+        padding-top: 40px;
+    }
+    .service-block {
+        padding-top: 30px;
+    }
+    /* how work area  */
+    .howWork-left {
+        background-size: 100% 100%;
+        padding: 50px 0;
+    }
+    .howItWork-right h2 {
+        font-size: 90px;
+    }
+    .How-work-card {
+        width: 100%;
+    }
+    .howitwork-area {
+        padding: 30px 0;
+    }
+    /* brand area  */
+    .brand-area {
+        padding: 25px 0;
+    }
+    .brand-content h2 {
+        font-size: 60px;
+    }
+    /* testimonials area  */
+    .testimonial-top h2 {
+        font-size: 40px;
+    }
+    /* contact area  */
+    .contact-title h2 {
+        font-size: 75px;
+        text-align: center;
+    }
+    .contact-form {
+        padding-top: 30px;
+    }
+
+    /* offer area responsive  */
+
+    .offer-card h3 {
+        font-size: 19px;
+    }
+.section-top-card h2 {
+	font-size: 50px;
+}
+
+
+
+/* brand builder  */
+
+.brand-builder-area {
+	padding: 30px 0;
+}
+
+.brand-builder-content h2 {
+	font-size: 40px;
+}
+.brand-builder-content {
+	gap: 30px;
+}
+
+/* our progress area  */
+
+    .progress-tab-card h2 {
+        font-size: 50px;
+    }
+    .progress-tab-card {
+        gap: 40px;
+    }
+    .progress-inner-content {
+        gap: 25px;
+    }
+
+.progress-left-card {
+	flex-direction: column;
+}
+
+.progress-tab-nav {
+	display: flex;
+	flex-direction: row;
+	padding: 0 30px;
+	gap: 15px;
+	margin-left: 0;
+	margin-top: -3px;
+}
+.progress-tab-nav button {
+	writing-mode: unset;
+	min-height: 40px;
+}
+.progess-tab-content {
+	padding: 0 30px;
+	padding-top: 50px;
+}
+
+
+.roating-bar {
+	padding: 25px 0;
+	padding-top: 0;
+}
+.roating-bar li {
+    font-size: 60px;
+}
+
+
+
+.talk-card .icon {
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+}
+.talk-card {
+	gap: 15px;
+}
+.talk-card a, .talk-card p {
+	font-size: 18px;
+}
+
+.talk-wrapper {
+	padding-top: 30px;
+}
+.talk-area {
+	padding: 35px 0;
+}
+
+
+/* about us page  */
+
+.trusted-partner-wrapper h2 {
+	font-size: 30px;
+}
+
+.partner-inner-box {
+	max-width: 430px;
+	padding: 35px;
+	gap: 15px;
+}
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+
+@media screen and (max-width: 767px) {
+    /* header responsive  */
+    .hero-wrapper h3 {
+        font-size: 25px;
+    }
+    .hero-wrapper h2 {
+        font-size: 25px;
+    }
+    .header-area {
+        padding: 0 10px;
+    }
+    .nav-logo img {
+        max-width: 160px;
+    }
+    .navbar-navs li {
+        display: none;
+    }
+    .navbar-navs li.brand-logo {
+        display: block;
+    }
+    .navbar-area {
+        padding: 40px 0;
+    }
+    .header-fixed .navbar-area {
+        padding: 10px 0 !important;
+    }
+    /* feature area  */
+    .feature-area {
+        padding: 30px 0;
+    }
+    .feature-wrapper {
+        padding: 10px 0px;
+        overflow: hidden;
+    }
+    .single-feature-card h1 {
+        font-size: 40px;
+    }
+    /* service area  */
+    .service-area {
+        padding: 40px 0;
+    }
+    .single-service {
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .single-service {
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .single-service .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .service-details h4 {
+        font-size: 20px;
+    }
+    .service-left-card p {
+        font-size: 18px;
+    }
+    .service-left-card h4 {
+        font-size: 25px;
+    }
+    .service-section-top h2 {
+        font-size: 40px;
+    }
+    .service-wrapper {
+        padding-top: 30px;
+    }
+    .service-block {
+        padding-top: 30px;
+    }
+    /* how work area  */
+    .howWork-left {
+        background-size: 100% 100%;
+        padding: 40px 0;
+    }
+    .howItWork-right h2 {
+        font-size: 70px;
+    }
+    .How-work-card {
+        width: 100%;
+    }
+    .howitwork-area {
+        padding: 0;
+    }
+    /* brand area  */
+    .brand-area {
+        padding: 25px 0;
+    }
+    .brand-content h2 {
+        font-size: 45px;
+        text-align: center;
+    }
+    /* testimonials area  */
+    .testimonial-top h2 {
+        font-size: 35px;
+    }
+    .testimonials-wrapper {
+        padding-top: 35px;
+    }
+    /* contact area  */
+    .contact-title h2 {
+        font-size: 51px;
+        text-align: center;
+    }
+    .contact-form {
+        padding-top: 30px;
+    }
+    .contact-area {
+        padding: 30px 0;
+    }
+    .footer-links,
+    .footer-block {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 10px;
+    }
+    .footer-block-title h4::after,
+    .footer-block-title h4::before {
+        display: none;
+    }
+    .footer-block-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    .accordion-icons {
+        transition: 0.3s;
+    }
+    .footer-block-title.active .accordion-icons {
+        transform: rotate(180deg);
+    }
+    .footer-links ul {
+        padding-top: 10px;
+    }
+    .footer-block-title h4 {
+        font-size: 20px;
+    }
+
+     .hero-wrapper {
+        min-height: 60dvh;
+    }
+
+    .hero-scroll-btn {
+        bottom: 4%;
+    }
+
+    /* branding page  */
+
+        /* offer area responsive  */
+
+    .offer-card h3 {
+        font-size: 19px;
+    }
+.section-top-card h2 {
+	font-size: 45px;
+}
+
+.offer-card {
+	margin-inline: 15px;
+}
+.our-offer-area {
+	padding: 20px 0;
+}
+
+/* brand builder  */
+
+.brand-builder-area {
+	padding: 30px 0;
+}
+
+.brand-builder-content h2 {
+	font-size: 30px;
+}
+.brand-builder-content {
+	gap: 30px;
+}
+.brand-builder-wrapper {
+	padding: 40px 20px;
+}
+.single-builder img {
+	max-width: 30px;
+}
+.single-builder p br {
+	display: none;
+}
+.single-builder p {
+	font-size: 14px;
+}
+
+.brand-builder-area .container {
+	padding: 0 20px;
+}
+
+/* our progress area  */
+.our-progress-area {
+	padding: 25px 0;
+}
+
+    .progress-tab-card h2 {
+        font-size: 40px;
+    }
+    .progress-tab-card {
+        gap: 30px;
+    }
+    .progress-inner-content {
+        gap: 20px;
+    }
+
+.progress-left-card {
+	flex-direction: column;
+}
+
+.progress-tab-nav {
+	display: flex;
+	flex-direction: row;
+	padding: 0 30px;
+	gap: 15px;
+	margin-left: 0;
+	margin-top: -3px;
+}
+.progress-tab-nav button {
+	writing-mode: unset;
+	min-height: 40px;
+	font-size: 20px;
+}
+.progess-tab-content {
+	padding: 0 30px;
+	padding-top: 50px;
+}
+
+
+/* jursey design area  */
+
+.jursey-wrapper {
+	background-position: unset;
+	padding: 20px 25px;
+	background-position-x: 73%;
+}
+.contact-btn {
+	margin-top: 20px;
+}
+
+.jursey-designer-area {
+	padding: 30px 0;
+}
+
+.roating-bar {
+	padding: 25px 0;
+	padding-top: 0;
+}
+.roating-bar li {
+    font-size: 50px;
+}
+
+
+.talk-card .icon {
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+}
+.talk-card {
+	gap: 15px;
+	flex-direction: column;
+	text-align: center;
+	flex: 1;
+}
+.talk-card a, .talk-card p {
+	font-size: 18px;
+}
+
+.talk-wrapper {
+	padding-top: 30px;
+	align-items: start;
+}
+.talk-area {
+	padding: 35px 0;
+}
+
+.jursey-right-card p {
+	text-align: center;
+}
+.jursey-right-card {
+	text-align: center;
+}
+
+/* about us page  */
+
+.trusted-partner-wrapper h2 {
+	font-size: 25px;
+}
+.partner-inner-box {
+	max-width: 400px;
+	padding: 30px;
+	gap: 15px;
+	left: -45px;
+}
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+
+@media screen and (max-width: 576px) {
+    .hero-area .container {
+        padding: 10px;
+    }
+    .header-top {
+        padding: 0 10px;
+    }
+    .navbar-area ul {
+        padding: 0 10px;
+    }
+    .header-fixed .navbar-area {
+        padding: 5px 0 !important;
+    }
+    /* header responsive  */
+    .hero-wrapper h3 {
+        font-size: 22px;
+    }
+    .hero-wrapper h2 {
+        font-size: 25px;
+    }
+    .header-area {
+        padding: 0 10px;
+    }
+    .nav-logo img {
+        max-width: 140px;
+    }
+    .navbar-navs li {
+        display: none;
+    }
+    .navbar-navs li.brand-logo {
+        display: block;
+    }
+    .hero-action-btns {
+        flex-direction: column;
+        gap: 15px;
+    }
+    /* feature area  */
+    .feature-area {
+        padding: 30px 0;
+    }
+    .feature-wrapper {
+        padding: 10px 0px;
+        overflow: hidden;
+    }
+    .single-feature-card h1 {
+        font-size: 35px;
+    }
+    /*======== service area ====== */
+    .service-left-card h4 {
+        font-size: 20px;
+    }
+    .service-left-card p {
+        font-size: 16px;
+    }
+    .service-section-top h2 {
+        font-size: 30px;
+    }
+    .service-details h4 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .social-icons ul svg {
+        width: 16px;
+        height: 18px;
+    }
+    .service-area {
+        padding: 30px 0;
+    }
+    /* how work area  */
+    .howWork-left {
+        background-size: 100% 100%;
+        padding: 30px 0;
+    }
+    .howItWork-right h2 {
+        font-size: 45px;
+    }
+    .How-work-card {
+        width: 100%;
+    }
+    .single-work-card h1 {
+        font-size: 90px;
+    }
+    .work-content h4 {
+        font-size: 20px;
+    }
+    /* brand area  */
+    .brand-area {
+        padding: 25px 0;
+    }
+    .brand-content h2 {
+        font-size: 31px;
+        text-align: center;
+    }
+    .barnd-action-btn {
+        margin-top: 10px;
+    }
+    /* testimonials area  */
+    .testimonial-top h2 {
+        font-size: 25px;
+    }
+    .testimonials-wrapper {
+        padding-top: 35px;
+    }
+    .testimonials-area {
+        padding: 20px 0;
+    }
+    /* contact area  */
+    .contact-title h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .contact-form {
+        padding-top: 30px;
+    }
+    .contact-form h4 {
+        font-size: 20px;
+    }
+    .contact-area {
+        padding: 20px 0;
+    }
+    .footer-area {
+        border-top-left-radius: 50px;
+    }
+
+    .hero-wrapper {
+        min-height: 55dvh;
+        padding-top: 150px;
+        padding-bottom: 80px;
+    }
+    .hero-action-btns a {
+        flex: 1;
+        width: 100%;
+    }
+
+    .hero-scroll-btn {
+        bottom: 1%;
+    }
+
+    .offcanvas.offcanvas-end {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    /*======== branding page ======== */
+
+    .section-top-card h2 {
+        font-size: 30px;
+    }
+    .section-top-card p {
+        font-size: 16px;
+    }
+
+    /* brand builder  */
+
+.brand-builder-area {
+	padding: 20px 0;
+}
+
+.brand-builder-content h2 {
+	font-size: 20px;
+}
+.brand-builder-content {
+	gap: 20px;
+}
+.brand-builder-wrapper {
+	padding: 30px 10px;
+}
+.single-builder img {
+	max-width: 25px;
+}
+.single-builder p br {
+	display: none;
+}
+.single-builder p {
+	font-size: 14px;
+}
+
+.brand-builder-area .container {
+	padding: 0 10px;
+}
+
+.brand-builder-content p {
+	font-size: 14px;
+}
+.single-builder {
+	gap: 10px;
+}
+
+
+/* our progress area  */
+
+.progess-wrapper {
+	padding-top: 25px;
+}
+.progress-tab-nav {
+	padding: 0 20px;
+	gap: 10px;
+}
+.progess-tab-content {
+	padding: 0 20px;
+	padding-top: 30px;
+}
+.progress-tab-card h2 {
+	font-size: 30px;
+}
+.progress-tab-card {
+	gap: 20px;
+}
+.jursey-designer-area {
+	padding: 20px 0;
+}
+
+.roating-bar {
+	padding: 20px 0;
+	padding-top: 0;
+}
+.roating-bar li {
+    font-size: 40px;
+}
+
+
+/* talk area  */
+
+.talk-wrapper {
+	padding-top: 20px;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+    gap: 15px;
+}
+
+.navbar-area {
+	padding: 20px 0;
+}
+
+
+.partner-inner-box {
+	max-width: 100%;
+	padding: 20px;
+	gap: 15px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.partner-inner-box p {
+	text-align: center;
+}
+
+
+
+}
