@@ -1,7 +1,6 @@
 /*====== Font Link hare ======== */
 
 /* Regular weight */
-
 @font-face {
     font-family: "Qualy Neue";
     src: url('fonts/qualy-neue-regular.woff2') format('woff2'), url('fonts/qualy-neue-regular.woff') format('woff'), url('fonts/qualy-neue-regular.ttf') format('truetype');
@@ -10,7 +9,6 @@
 }
 
 /* Regular light */
-
 @font-face {
     font-family: "Qualy Neue";
     src: url('fonts/qualy-neue-light.ttf') format('woff2'), url('fonts/qualy-neue-light.woff') format('woff'), url('fonts/qualy-neue-light.woff2') format('truetype');
@@ -19,7 +17,6 @@
 }
 
 /* medium weight */
-
 @font-face {
     font-family: "Qualy Neue";
     src: url('fonts/qualy-neue-medium.ttf') format('woff2'), url('fonts/qualy-neue-medium.woff') format('woff'), url('fonts/qualy-neue-medium.woff2') format('truetype');
@@ -28,7 +25,6 @@
 }
 
 /* Bold weight */
-
 @font-face {
     font-family: "Qualy Neue";
     src: url('fonts/qualy-neue-bold.ttf') format('woff2'), url('fonts/qualy-neue-bold.woff') format('woff'), url('fonts/qualy-neue-bold.woff2') format('truetype');
@@ -36,12 +32,7 @@
     font-style: normal;
 }
 
-/*
-========================
-GOBAL CSS START
-========================
-*/
-
+/* GOBAL CSS START */
 body {
     font-family: "Qualy Neue";
     font-size: 16px;
@@ -144,7 +135,7 @@ img {
     border-radius: 50%;
     background: var(--scroll-top-bg);
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     color: var(--scroll-top-color);
     position: fixed;
     right: 30px;
@@ -421,8 +412,8 @@ img {
 .header-fixed .navbar-area {
     background: #fff;
     color: var(--black-color);
-    border: 2px solid #ababab;
-    border-radius: 21px;
+    border: 1px solid #ababab;
+    border-radius: 12px;
     padding: 20px 0 !important;
     margin: 0 !important;
 }
@@ -441,6 +432,10 @@ img {
 
 .header-fixed .navbar-navs .nav-links {
     color: var(--black-color);
+}
+
+.header-fixed .navbar-navs .nav-links.active {
+    color: var(--primary-color);
 }
 
 .header-fixed .toggler-btn input[type="checkbox"] {
@@ -1589,47 +1584,55 @@ img {
 
 
 /* Hide content until page is ready */
-    body {
-     height: 100dvh;
-     overflow: hidden;
-    }
+body {
+    height: 100dvh;
+    overflow: hidden;
+}
 
-    body.pace-done {
-      height: auto;
-      overflow: unset;
-    }
+body.pace-done {
+    height: auto;
+    overflow: unset;
+}
 
-    /* Custom GIF overlay container */
-    .pace {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background-color: #000;
-      z-index: 9999;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 1;
-      visibility: visible;
-      transition: 0.2s;
-    }
+/* Custom GIF overlay container */
+.pace {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.2s;
+}
 
-    .pace-inactive {
-      display: none;
-    }
+.pace-inactive {
+    display: none;
+}
 
-    .pace .pace-progress {
-      display: none !important;
-    }
+.pace .pace-progress {
+    display: none !important;
+}
 
-    .pace-custom-loader img {
-      width: 25%; /* adjust size as needed */
-      height: auto;
-    }
+.pace-custom-loader img {
+    width: 25%;
+    height: auto;
+}
 
-    body.pace-done .pace-custom-loader {
-      visibility: hidden;
-      opacity: 1;
-    }
+body.pace-done .pace-custom-loader {
+    visibility: hidden;
+    opacity: 1;
+}
+
+.list-unstyled .nav-link {
+    color: #000;
+}
+
+.list-unstyled .nav-link.active {
+    color: var(--primary-color);
+}

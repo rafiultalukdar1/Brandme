@@ -25,12 +25,12 @@
 			e.preventDefault();
 
 			var target = $($(this).attr('href'));
-			var offset = 100; // Adjust this value as needed
+			var offset = 100;
 
 			if (target.length) {
 				$('html, body').animate({
 				scrollTop: target.offset().top - offset
-				}, 600); // 600ms animation duration
+				}, 600);
 			}
 		});
 
@@ -109,39 +109,28 @@
 		});
 
 
-		// branding page js 
-
-		// tab js 
-
-		 $('.tab').click(function(){
+		// tab js
+		$('.tab').click(function(){
 		var target = $(this).data('target');
-
-		// Switch tab buttons
 		$('.tab').removeClass('active');
 		$(this).addClass('active');
-
-		// Hide current content with fade
 		$('.tab-content.active').fadeOut(200, function(){
 			$(this).removeClass('active');
-
-			// Show target content
 			$(target).fadeIn(200).addClass('active');
 		});
 		});
 
-		// Initialize: hide all except active
 		$('.tab-content').not('.active').hide();
 		
 
 
 		// roatate bar slider 	
-
 		$(".text-slider").slick({
 			infinite: true,
-			variableWidth: true,          // This enables auto-width items
+			variableWidth: true, 
 			slidesToScroll: 1,
 			autoplay: true,
-			autoplaySpeed: 0,             // Combined with speed + linear, this creates a smooth continuous scroll
+			autoplaySpeed: 0,      
 			speed: 4000,
 			dots: false,
 			cssEase: 'linear',
@@ -150,7 +139,7 @@
 			pauseOnFocus: true,
 			draggable: false,
 			waitForAnimate: true,
-			useTransform: false,          // Optional, test with and without
+			useTransform: false,
 			easing: 'linear',
 			lazyLoad: 'progressive',
 			swipe: false,
@@ -303,26 +292,50 @@ $(window).on('resize', function () {
 
 
 //   preloader 
-
 window.paceOptions = {
     ajax: true,
     document: true,
     eventLag: true,
     restartOnPushState: false
-  };
+};
 
-  $(window).on('load', function() {
+$(window).on('load', function() {
     setTimeout(function() {
       if (typeof Pace !== 'undefined' && !Pace.done) {
         Pace.stop();
       }
-    }, 1000);
-  });
+    }, 300);
+});
 
 const img = new Image();
 img.src = "images/preloader-img.gif";
 
 
+// Nav Active
+const currentPath = location.pathname.split("/").pop();
+
+document.querySelectorAll('.nav-links').forEach(link => {
+  const linkPath = link.getAttribute("href");
+  if (linkPath === currentPath) {
+    link.classList.add("active");
+    link.style.color = getComputedStyle(document.documentElement)
+      .getPropertyValue('--primary-color');
+  }
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  let currentPath = location.pathname.split("/").pop();
+  if (currentPath === "") {
+    currentPath = "index.html";
+  }
+  document.querySelectorAll('.list-unstyled .nav-link').forEach(link => {
+    let linkPath = link.getAttribute("href");
+    if (linkPath === currentPath) {
+      link.classList.add("active");
+    }
+  });
+});
 
 
 
